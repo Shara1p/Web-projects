@@ -1,0 +1,148 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+p{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li{
+    display: block;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url("../img/header-bg.jpg") no-repeat center top / cover;
+    padding-top:57px;
+    padding-bottom:322px;
+}
+
+.header a{
+    color:#FFFFFF;
+}
+
+.menu{
+    display:flex;
+}
+
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu li{
+    margin-right: 40px;
+}
+
+.tel{
+    font-size: 17px;
+    text-decoration: none;
+    margin-left:auto;
+    letter-spacing: 0.1em;
+}
+
+.navmenu{
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right:70px;
+}
+
+.book p, h1, a{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.book p{
+    font-size:30px;
+}
+
+.book h1{
+    font-size:100px;
+    margin-bottom:19px;
+    margin-top: 0px;
+}
+
+.btn{
+    display:block;
+    font-size: 17px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 18px 46px;
+    width: 238px;
+}
+
+.book{
+    margin-top:216px;
+}
+
+.abouth2{
+    margin-top:125px;
+    font-size: 50px;
+    margin-bottom:74px;
+}
+
+.aboutMainText{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:74px;
+}
+
+.aboutMainText h3{
+    font-size:25px;
+    margin-bottom:32px;
+}
+.aboutMainText p{
+    font-size:16px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.about-left, .about-right{
+    width:564px;
+}
+
+.about-left{
+    margin-right:36px;
+}
+
+.images{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 114px;;
+}
+
+.footer-text{
+    display:flex;
+}
+
+.footer-text p{
+    margin-right:55px;
+    margin-bottom:80px;
+    font-size:15px;
+    line-height: 20px;
+    font-family: "Open Sans";
+}
