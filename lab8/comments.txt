@@ -1,0 +1,21 @@
+hhh|images/1.jpg
+hhh|images/1.jpg
+jjj|images/6.jpg
+jjj|images/6.jpg
+jjj|images/6.jpg
+jjj|images/6.jpg
+jjj|images/6.jpg
+jjj|images/6.jpg
+jjj|images/6.jpg
+jjj|images/6.jpg
+jjj|images/6.jpg
+jjj|images/6.jpg
+яблоко|images/lab8_MySql (1).doc
+theacher|images/1.jpg
+theacher|images/1.jpg
+theacher|images/1.jpg
+hhh|images/7.jpg
+cyberpunk|
+почта|images/MailSprite.png
+почта|images/MailSprite.png
+Банан|images/banan.jpg
