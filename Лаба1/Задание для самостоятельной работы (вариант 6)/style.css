@@ -1,0 +1,72 @@
+.top{
+    position: relative;
+    height:10%;
+}
+.content{
+    position: relative;
+    height:75%;
+}
+
+body {
+    height:100%;
+}
+html{
+    height:100%;
+}
+
+
+#gray{
+    background-color: rgb(184, 184, 184);
+    float:left;
+    width: 50%;
+    height:100%
+}
+
+#orange{
+    background-color: orange;
+    float:right;
+    width: 50%;
+    height:100%;
+}
+
+#blue{
+    background-color: rgb(96, 96, 255);
+    float:left;
+    height:100%;
+    width: 25%;
+}
+
+#yellow{
+    background-color: yellow;
+    float:right;
+    height:100%;
+    width: 75%;
+}
+
+#green{
+    position: relative;
+    background-color: rgb(0, 165, 0);
+    float:left;
+    height:15%;
+    width: 100%;
+}
+
+#orangeLittle{
+    position: relative;
+    background-color: orange;
+    float:right;
+    top:20%;
+    right:28%;
+    height:15%;
+    width:15%;
+}
+
+#red{
+    position:relative;
+    background-color:red;
+    float:right;
+    right:5%;
+    top:30%;
+    height: 15%;
+    width:15%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function CheckPass() {
+            const pass = document.querySelectorAll(".name");
+
+            if (pass[1].value == pass[2].value && pass[1].value != "" && pass[2] != "") {
+                document.getElementById("control").innerHTML = "<img src = 'images/check.png' width = '20'>";
+            }
+            else {
+                document.getElementById("control").innerHTML = "";
+            }
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <form action="#" method="post" name="registration form">
+        <div>
+            <label for="login">Логин</label>
+            <input tabindex="1" class="name" required type="text" name="login" placeholder="Введите логин">
+        </div>
+        <div>
+            <label for="pass">Пароль</label>
+            <input tabindex="2" class="name" required type="password" name="pass" placeholder="Введите пароль"
+                onblur="CheckPass()">
+        </div>
+        <div>
+            <label for="Secondpass">Пароль</label>
+            <input tabindex="2" class="name" required type="password" value="" id="secondPass" name="secondPass"
+                placeholder="Повторите пароль" onblur="CheckPass()">
+            <div id="control" class="checkbox"></div>
+        </div>
+        <br class="clear">
+        <input type="submit" id="button">
+
+    </form>
+
+</body>
+
+</html>

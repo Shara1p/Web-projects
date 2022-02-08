@@ -1,0 +1,15 @@
+label{
+    float:left;
+}
+
+#secondPass{
+    float:left;
+}
+
+.clear{
+    clear:both;
+}
+
+.checkbox{
+    position: relative;
+}

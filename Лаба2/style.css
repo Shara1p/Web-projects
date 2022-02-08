@@ -1,0 +1,89 @@
+body{
+    background:#D2D5EB;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+form{
+    max-width: 300px;
+    margin: auto;
+}
+
+form > div {
+    position: relative;
+    background:#b1b4ca;
+    padding: 20px;
+   
+}
+
+form > div > input {
+   width: 100%;
+   padding: 12px;
+   border : 1px solid black;
+   border-radius: 5px;
+   background-color: rgb(0, 167, 97);
+   box-sizing: border-box;
+}
+form > input[type = submit]{
+    padding:10px;
+    width: 100%;
+    border:0px;
+    background-color: rgb(243, 189, 108);
+    font-size:18px;
+    text-transform: uppercase;
+}
+form > div > select{
+    width: 100%;
+}
+form > div > textarea{
+    width: 97%;
+    height: 100px;
+}
+form > div > label{
+    position: relative;
+    bottom: 5px;
+}
+.submit:hover{
+    background-color: rgb(207, 162, 95)
+}
+
+.name:required:focus{
+    background-color: rgb(255, 160, 160);
+}
+
+.name:focus:valid{
+    background-color: rgb(0, 167, 97);
+}
+.name:focus:invalid{
+    background-color: rgb(255, 160, 160);
+}
+
+.pass:required:focus{
+    background-color: rgb(255, 160, 160);
+}
+.pass:focus:valid{
+    background-color: rgb(0, 167, 97);
+}
+.pass:focus:invalid{
+    background-color: rgb(255, 160, 160);
+}
+
+.mail:required:focus{
+    background-color: rgb(255, 160, 160);
+}
+
+.mail:focus:valid{
+    background-color: rgb(0, 167, 97);
+}
+.mail:focus:invalid{
+    background-color: rgb(255, 160, 160);
+}
+.phone:optional{
+    opacity: 0.7;
+}
+.phone:invalid{
+    background-color: rgb(255, 160, 160);
+}
+input[type = "radio"]:checked + label{
+    color: deeppink;
+}
