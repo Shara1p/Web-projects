@@ -1,0 +1,138 @@
+body{
+    background:#D2D5EB;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+form{
+    max-width: 300px;
+    margin: auto;
+}
+
+form > div {
+    position: relative;
+    background:#b1b4ca;
+    padding: 20px;
+   
+}
+
+form > div > input {
+   width: 100%;
+   padding: 12px;
+   border : 1px solid black;
+   border-radius: 5px;
+   background-color: rgb(0, 167, 97);
+   box-sizing: border-box;
+}
+form > input[type = submit]{
+    padding:10px;
+    width: 100%;
+    border:0px;
+    background-color: rgb(243, 189, 108);
+    font-size:18px;
+    text-transform: uppercase;
+}
+form > div > select{
+    width: 100%;
+}
+form > div > textarea{
+    width: 97%;
+    height: 100px;
+}
+form > div > label{
+    position: relative;
+    bottom: 5px;
+}
+
+
+.submit:hover{
+    background-color: rgb(207, 162, 95)
+}
+
+.name:valid:focus{
+    background-color: rgb(0, 167, 97);
+}
+.name:invalid:focus{
+    background-color: rgb(255, 160, 160);
+}
+
+.pass:required:focus{
+    background-color: rgb(255, 160, 160);
+}
+.pass:focus:valid{
+    background-color: rgb(0, 167, 97);
+}
+.pass:focus:invalid{
+    background-color: rgb(255, 160, 160);
+}
+
+.mail:required:focus{
+    background-color: rgb(255, 160, 160);
+}
+
+.mail:focus:valid{
+    background-color: rgb(0, 167, 97);
+}
+.mail:focus:invalid{
+    background-color: rgb(255, 160, 160);
+}
+.phone:optional{
+    opacity: 0.7;
+}
+.phone:invalid{
+    background-color: rgb(255, 160, 160);
+}
+input[type = "radio"]:checked + label{
+    color: deeppink;
+}
+
+.popup{
+    position:fixed;
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0, 0.8);
+    top:0;
+    left:0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-Y: auto;
+}
+.popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup_body{
+    min-height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px 10px;
+}
+.popup_content{
+    background-color:white;
+    color:black;
+    max-width: 800px;
+    padding:30px;
+    position: relative;
+}
+.popup_close{
+    position:absolute;
+    right:10px;
+    top:10px;
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+}
+
+.popup_title{
+    font-size:40px;
+    margin: 0px 0px 1em 0px;
+}
+
+.link{   
+    margin:auto;
+    max-width: 300px;
+    font-size:30px;
+    text-decoration: none;
+}
