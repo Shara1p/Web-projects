@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Обязательные метатеги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <title>Адаптивная верстка на bootstrap</title>
+   
+  </head>
+  <body>
+<!-- меню -->
+<div class="fixed-top">
+   <!-- top-bar -->
+   <div class="container-fluid"> <!--класс container-fluid позволяет заполнить все окно браузера -->
+          <div class="row top-bar">
+            <div class="col-12">
+              <a href="#" class="text-white"><span class="mr-2 text-white icon-envelope-open-o"></span> <span class="d-none d-md-inline-block">info@yourdomain.com</span></a>
+              <span class="mx-md-2 d-inline-block"></span>
+              <a href="#" class="text-white"><span class="mr-2 text-white icon-phone"></span> <span class="d-none d-md-inline-block">+7 (960) 1234 5678</span></a>
+               <div class="float-right">
+              <a href="#" class="text-white"><span class="mr-2 text-white icon-vk"></span> </a>
+              <span class="mx-md-2 d-inline-block"></span>
+              <a href="#" class="text-white"><span class="mr-2 text-white icon-odnoklassniki"></span> </a>
+            </div>
+          </div>
+   </div>

@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Verdana";
+}
+
+a {
+  text-decoration: none;
+}
+.top-bar {
+  background: linear-gradient(to right, #f77b2e 0%, #fac85d 51%, #f77b2e 100%);
+  padding: 0.5rem 0;
+}
+.float-right {
+  float: right;
+}
+.navbar {
+  border-bottom: 5px solid #f77b2e;
+  background-color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+  color: #f77b2e !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}  
+.carousel {
+  padding: auto;
+}
+.carousel-inner {
+    border-radius: 5%;
+    overflow: hidden;
+}
+.content {
+  position: relative;
+  padding-top: 9em;
+}
+.section2
+{
+  margin-top: 8em; 
+}
+h1,.card-title {
+  color: #f97300;
+}
+
+.section2 .card {
+  box-shadow: 0 0 20px #ccc;
+}
+.section2 .card img {
+  width: auto;
+  height: auto;
+}
+.section2 .card-footer a:link {
+  color: #121213; 
+}
+.section2 .card-footer a:visited {
+  color: #38383a; 
+}
+  .section2 .card-footer a:hover {
+  color: #f97300;
+}
+.section3 {
+  margin-top: 10em; 
+}
